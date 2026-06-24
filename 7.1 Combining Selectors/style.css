@@ -1,0 +1,21 @@
+/* Write your code here: */
+
+h1, h2 {
+    color: blueviolet;
+}
+
+.box > .done {           /*it only access the direct decendant of the parent*/
+    color: firebrick;
+}
+
+div li {                 /*it can access any child element under that parent child*/
+    color:blue;
+}
+
+li.done {                /*chaining: more specific*/
+    color: seagreen;
+}
+
+ul p.done {              /*combining combiners*/
+    font-size: 0.5rem;
+}
