@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            background-color: gray;
+            padding: 10px;
+            justify-content: space-between;
+        }
+
+        .container > * {
+            flex-basis: 200px;
+        }
+
+        .child{
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border: 2px solid white;
+        }
+
+        .third{
+            flex-grow: 1;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first child">item 1: 200px</div>
+        <div class="second child">item 2: 200px</div>
+        <div class="third child">Item 3: 400px</div>
+    </div>
+</body>
+</html>
