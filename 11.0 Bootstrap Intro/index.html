@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap</title>
+  <!-- TODO 1: Add the Bootstrap link here. -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    /* TODO 4: Use flexbox to center the card in the vertical and horizontal center. */
+    .flex-container {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <!-- TODO 2: Add the Bootstrap Prebuilt Card here -->
+        <div class="card" style="width: 18rem;">
+            <img src="./flower.jpg" class="card-img-top" alt="picture of a sunflower">
+            <div class="card-body">
+                <h5 class="card-title">Sunflower</h5>
+                <p class="card-text">The common sunflower is a large annual forb in the daisy family Asteraceae. The domesticated form of common sunflower is harvested for its edible seeds, which come in two types: oil and confectionary seeds. Oilseed sunflowers are widely grown globally and represent the fourth most used vegetable oil in the world.</p>
+                <a href="https://en.wikipedia.org/wiki/Common_sunflower" class="btn btn-primary">About</a>
+            </div>
+        </div>
+        <!-- TODO 3: Change the image src to display the flower.jpg image. -->
+    </div>
+</body>
+
+</html>
