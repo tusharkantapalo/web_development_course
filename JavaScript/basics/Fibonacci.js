@@ -15,6 +15,6 @@ function fibonacciSeries(limit) {
     }
 }
 
-var limit = prompt("Enter the limit: ");
+var limit = 10;
 
 fibonacciSeries(limit);
