@@ -14,7 +14,7 @@ document.getElementById("Sita").getElementsByTagName("li")[2].style.color = "red
 document.querySelector("li a").innerHTML = "Chiku";
 
 //querySelectorAll()
-document.querySelectorAll("li.items")[1].style.color = "red";
+document.querySelectorAll("li.items")[1].style.color = "red"; //it is working in chrome developer tool
 
 //querySelecter("selector" or "#id" or".class") - finds the FIRST query by name at that label
             //if we want to add any class or id at the place of selector name, then we can use # or . notation
