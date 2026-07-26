@@ -11,7 +11,11 @@ document.firstElementChild.lastElementChild.getElementsByClassName("Ramayan")[0]
 document.getElementById("Sita").getElementsByTagName("li")[2].style.color = "red";  //IMPORTANT
 
 //combining selectors
-document.querySelector("li a").innerHTML = "Chiku";
+document.querySelector("li a").innerHTML = "Chiku"; //document.querySelector("li a").textContent = "Chiku";
+/*
+innerHTML - returns whatever in the present tag with anyother tags under the present tag
+textContent - returns only the text not any tags even if in the present tag
+*/
 
 //querySelectorAll()
 document.querySelectorAll("li.items")[1].style.color = "red"; //it is working in chrome developer tool
