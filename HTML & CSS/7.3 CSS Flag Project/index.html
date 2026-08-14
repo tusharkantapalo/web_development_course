@@ -7,38 +7,34 @@
   <style>
     /* Write your CSS Code here */
     
-    .flag > p{
-        color: white;
+    p {
+        margin: 0%;
+        text-align: center;
+        font-size: 5rem;
     }
-
-    .flag {
-        background-color: rgb(206, 17, 38);
+    .flag{ 
+        background-color: red;
         width: 900px;
         height: 600px;
-    }
-
-    .flag div div{
-        background-color: rgb(255, 255, 255);
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        position: absolute;
-        top: 200px;
-        left: 350px;
-    }
-
-    p {
-        text-align: center;
-        padding: 0%;
-        margin: 0%;
-        font-size: 5rem;
+        position: relative;
     }
 
     .flag > div {
+        background-color: blue;
+        height: 300px;
         width: 900px;
+        position: absolute;
+        top: 150px;
+    }
+
+    .flag > div > div {
+        background-color: white;
         height: 200px;
-        background-color: rgb(0, 40, 104);
-        margin-top: 100px;
+        width: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50px;
+        left: 350px;
     }
 
   </style>
