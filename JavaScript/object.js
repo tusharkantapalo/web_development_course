@@ -3,3 +3,5 @@ var houseKeeper = {
     exp: 12,
     cleaningReport : ["Bath room"]
 }
+
+console.log(houseKeeper.name);
