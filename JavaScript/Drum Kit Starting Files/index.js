@@ -1,3 +1,4 @@
+//this funcion is for playing the sound
 function keyPress(key) {
     switch(key) {
         case 'w':
@@ -32,15 +33,25 @@ function keyPress(key) {
             alert("Key press is not identified!");
     }
 }
+//this function is for the animation
+function keyAni (keyPressed) {
+    document.querySelector("." + keyPressed).classList.toggle("pressed")
+    setTimeout(function() {
+        document.querySelector("." + keyPressed).classList.toggle("pressed")
+    }, 100);
+}
+
 
 //identifies the mouse clicks
 for(var i = 0; i < document.querySelectorAll(".drum").length; i++) {
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
         keyPress(this.innerHTML);
+        keyAni(this.innerHTML);
     });
 }
 
 //identifies the keyboard key presses
 document.addEventListener("keypress", function(event) {
     keyPress(event.key);
+    keyAni(event.key);
 });
