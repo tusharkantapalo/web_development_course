@@ -8,3 +8,6 @@ $("h1").addClass("big");            //adding a class to html
 $("h1").addClass("big margine");    //adding multiple classes to any attribute
 
 $("h1").text("Bye");                //manipulating text
+
+$("button").text("<em>Hey</em>");   //changing the text
+$("button").html("<em>Hey</em>");   //changing the html
