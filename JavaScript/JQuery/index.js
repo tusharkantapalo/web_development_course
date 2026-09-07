@@ -14,3 +14,7 @@ $("button").html("<em>Hey</em>");   //changing the html
 
 $("a").attr("href", "https://in.search.yahoo.com/");    //setting the value
 $("a").attr("href");                                    //getting the value
+
+$("h1").click(function() {
+    $("h1").css("color", "purple"); //adding evenListner
+})
