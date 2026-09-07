@@ -1,4 +1,5 @@
 // document.querySelector("h1").style.color = "red";
 // document.querySelectorAll("h1").style.color = "red"; , if multiple h1s are there
 
-$("h1").css("color", "red");
+$("h1").css("color", "red");        //setting the color
+console.log($("h1").css("color"));  //getting the value
