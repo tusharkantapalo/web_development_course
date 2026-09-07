@@ -17,8 +17,12 @@ $("a").attr("href");                                    //getting the value
 
 $("h1").click(function() {
     $("h1").css("color", "purple"); //adding evenListner
-})
+});
 
 $(document).keypress(function(event) {
     $("h1").html(event.key);
-})
+});
+
+$("h1").on("mouseover", function() {                    //another way of adding event listener
+    $("h1").css("color", "Green");
+});
