@@ -11,3 +11,6 @@ $("h1").text("Bye");                //manipulating text
 
 $("button").text("<em>Hey</em>");   //changing the text
 $("button").html("<em>Hey</em>");   //changing the html
+
+$("a").attr("href", "https://in.search.yahoo.com/");    //setting the value
+$("a").attr("href");                                    //getting the value
