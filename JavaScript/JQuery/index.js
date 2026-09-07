@@ -18,3 +18,7 @@ $("a").attr("href");                                    //getting the value
 $("h1").click(function() {
     $("h1").css("color", "purple"); //adding evenListner
 })
+
+$(document).keypress(function(event) {
+    $("h1").html(event.key);
+})
