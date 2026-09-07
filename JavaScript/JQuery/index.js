@@ -3,3 +3,5 @@
 
 $("h1").css("color", "red");        //setting the color
 console.log($("h1").css("color"));  //getting the value
+
+$("big").addClass("big");           //adding a class to html

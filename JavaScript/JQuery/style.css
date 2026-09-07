@@ -11,3 +11,9 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+.big {
+    font-size: 10rem;
+    color: yellow;
+    font-family: cursive;
+}
