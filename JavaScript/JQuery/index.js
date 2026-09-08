@@ -58,14 +58,20 @@
 //      $("h1").fadeToggle();
 //  });
 
-$("button").click(function() {                                      //sliding up the element
-     $("h1").slideUp();
- });
+// $("button").click(function() {                                   //sliding up the element
+//      $("h1").slideUp();
+//  });
 
- $("button").click(function() {                                      //sliding down the element
-     $("h1").slideDown();
- });
+//  $("button").click(function() {                                   //sliding down the element
+//      $("h1").slideDown();
+//  });
 
- $("button").click(function() {                                      //toggling the element
-     $("h1").slideToggle();
- });
+//  $("button").click(function() {                                   //toggling the element
+//      $("h1").slideToggle();
+//  });
+
+$("button").click(function() {                                    //to add custom CSS but only we can add the css with numeric value, not like color
+    $("h1").animate({
+        opacity: 0.5
+    });
+});
