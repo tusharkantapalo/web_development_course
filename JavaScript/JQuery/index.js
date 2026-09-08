@@ -26,3 +26,5 @@ $(document).keypress(function(event) {
 $("h1").on("mouseover", function() {                    //another way of adding event listener
     $("h1").css("color", "Green");
 });
+
+$("h1").before("<button>new</button>");                 //adding button before h1
