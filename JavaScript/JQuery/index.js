@@ -45,3 +45,15 @@ $("h1").append("<button>new</button>");                 //adding button in the h
 $("button").click(function() {                              //toggling the element
      $("h1").toggle();
  });
+
+//  $("button").click(function() {                              //fadding out the element
+//      $("h1").fadeOut();
+//  });
+
+//  $("button").click(function() {                              //fadding in the element
+//      $("h1").fadeIn();
+//  });
+
+ $("button").click(function() {                              //toggling the element
+     $("h1").fadeToggle();
+ });
