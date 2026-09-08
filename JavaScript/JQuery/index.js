@@ -28,3 +28,4 @@ $("h1").on("mouseover", function() {                    //another way of adding 
 });
 
 $("h1").before("<button>new</button>");                 //adding button before h1
+$("h1").after("<button>new</button>");                  //adding button before h1
