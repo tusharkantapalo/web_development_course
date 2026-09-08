@@ -34,10 +34,14 @@ $("h1").append("<button>new</button>");                 //adding button in the h
 
 //$("button").remove();                                   //for removing all the buttons
 
-$("button").click(function() {                              //hiding the element
-    $("h1").hide();
-});
+// $("button").click(function() {                              //hiding the element
+//     $("h1").hide();
+// });
 
-$("button").click(function() {                              //show the element
-    $("h1").show();
-});
+// $("button").click(function() {                              //show the element
+//     $("h1").show();
+// });
+
+$("button").click(function() {                              //toggling the element
+     $("h1").toggle();
+ });
