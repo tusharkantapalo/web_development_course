@@ -70,8 +70,14 @@
 //      $("h1").slideToggle();
 //  });
 
-$("button").click(function() {                                    //to add custom CSS but only we can add the css with numeric value, not like color
-    $("h1").animate({
+// $("button").click(function() {                                    //to add custom CSS but only we can add the css with numeric value, not like color
+//     $("h1").animate({
+//         opacity: 0.5
+//     });
+// });
+
+$("button").click(function() {                                    //chaining up the animatins
+    $("h1").slideUp().slideDown().animate({
         opacity: 0.5
     });
 });
