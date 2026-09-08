@@ -33,3 +33,7 @@ $("h1").prepend("<button>new</button>");                //adding button in the h
 $("h1").append("<button>new</button>");                 //adding button in the html h1 after the opening element of h1
 
 $("button").remove();                                   //for removing all the buttons
+
+$("h1").click(function() {                              //hiding the element
+    $("h1").hide();
+});
